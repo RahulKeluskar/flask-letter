@@ -1,0 +1,161 @@
+header {
+	background-color: #004d1a;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+}
+
+div.content {
+	width: 100%;
+}
+
+p.content {
+	padding-left: 20%;
+	padding-right: 20%;
+	font-size: 1.10em;
+}
+
+#cover-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-top: 12.5em;
+}
+
+.content-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main {
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+	width: 100%;
+	padding-top: 1em;
+}
+
+.menu-link {
+	font-size: 1.10em;
+	color: #FFF;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+	background-color: #003311;
+}
+
+h1.title {
+	color: #FFFFFF;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 3em;
+}
+
+a.title {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.heading {
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	padding-top: 1em;
+}
+
+.fa-heart {
+	color: pink;
+}
+
+a.footer {
+	color: #000000
+}
+
+p.footer {
+	font-family: 'Kaushan Script', cursive;
+}
+
+h1.title {
+	margin-top: .2em;
+	margin-bottom: .25em
+}
+
+#love-letter {
+	background-color: #003311;
+	color: #FFFFFF;
+	padding-bottom: 2em;
+}
+
+#love-letter-heading {
+	margin-bottom: .25em
+}
+
+h2.content {
+	font-family: 'Kaushan Script', cursive;
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-top: .5em;
+}
+
+#birb {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2em;
+	padding-left: 4em;
+}
+
+#our-future-heading {
+	margin-bottom: 0em;
+}
+
+#author {
+	margin-bottom: 0em;
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+	#cover-image {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		padding-top: 12em;
+	}
+}
+
+@media screen and (min-width: 412px) and (max-width: 414px) {
+	#cover-image {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		padding-top: 7.5em;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 320px) {
+	#cover-image {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		padding-top: 12em;
+	}
+	.menu-link {
+		font-size: .9em;
+		color: #FFF;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	#cover-image {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		padding-top: 8em;
+	}
+}
